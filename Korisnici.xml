@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korisnici>
+	<korisnik>
+		<ime>EmanuelZakanj</ime>
+		<sifra>12345</sifra>
+	</korisnik>
+	<korisnik>
+		<ime>korisnik1</ime>
+		<sifra>12345</sifra>
+	</korisnik>
+<korisnik><ime/><sifra/></korisnik><korisnik><ime>test1</ime><sifra>123</sifra></korisnik></korisnici>

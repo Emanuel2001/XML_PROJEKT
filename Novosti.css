@@ -1,0 +1,258 @@
+
+html{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    font-family: Arial;
+    height: 1135px;
+}
+
+body{
+    background-image: linear-gradient(#00b359,rgba(42, 83, 37, 0.596)), url("../images/pattern.jpg");
+    color: white;
+    font-family: Arial;
+    overflow-x: hidden;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    color: white;
+    display: block;
+    padding: 20px 0;
+}
+
+h1, h2, h3,p{
+    color: rgb(233, 221, 221);
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    color: white;   
+}
+  
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+  
+.topnav a.active {
+    margin-left: 50px;
+    background-color: #00b359;
+    color: white;
+}
+  
+.topnav .icon {
+    display: none;
+}
+
+nav{
+    width: 200px;
+    overflow: auto;
+    display:block;
+    background-color: #333;
+    float: right;
+    
+}
+  
+nav a {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+}
+  
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+  
+
+
+.button {
+    padding: 16px 32px;
+    color: white;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border: none;
+  }
+  
+  .button1 {
+    background-color: #333;
+    color: white;
+    border: 2px solid #00b359;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: black;
+  }
+
+.container{
+    max-width: 1000px;
+}
+
+.center {
+    text-align: center;
+}
+
+.row{
+    padding: 10px;
+}
+
+.navigacija{
+    display: none;
+}
+
+#sredina{
+    text-align: center;
+    margin: 100px;
+}
+
+#sredina img {
+    border: solid 3px #dab120;
+    border-radius: 50px;
+}
+
+
+@media (max-width: 1250px) {
+    nav{
+        display: none;
+    }
+
+    .navigacija{
+        display: block;
+    }
+
+    .navigacijska_traka{
+        background-color: #333;
+        overflow: hidden;
+    }
+      
+    .navigacijska_traka a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+      
+    .navigacijska_traka a:hover {
+        background-color: white;
+        color: black;
+    }
+      
+    .navigacijska_traka a.active {
+        background-color: #00b359;
+        color: white;
+    }
+      
+    .navigacija{
+        background-color: #333;
+        overflow: hidden;
+    }
+      
+    .navigacija a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+      
+    .navigacija a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
+
+@media (max-width: 900px) {
+    .navigacijska_traka a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 10px 25px;
+        font-size: 10px;
+    }
+        
+    .navigacija a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 10px 25px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigacijska_traka a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 10px 15x;
+        font-size: 19px;
+    }
+        
+    .navigacija a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 10px 15px;
+        font-size: 8px;
+    }
+      
+    nav a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .navigacijska_traka a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 5px 15px;
+        font-size: 5px;
+    }
+            
+    .navigacija a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 5px 15px;
+        font-size: 5px;
+    }
+    
+}
+
+
